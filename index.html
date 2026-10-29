@@ -89,38 +89,39 @@
         <p class="lead">Projects I built at <strong>NucleusBI</strong> as a Data Engineer.</p>
       </div>
       <div class="grid">
+      <!-- Client icons from Lucide (https://lucide.dev), ISC License -->
       <article class="card tone-lavender reveal">
-        <span class="client">DutchVans</span>
+        <span class="client"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 6v5a1 1 0 0 0 1 1h6.102a1 1 0 0 1 .712.298l.898.91a1 1 0 0 1 .288.702V17a1 1 0 0 1-1 1h-3"/><path d="M5 18H3a1 1 0 0 1-1-1V8a2 2 0 0 1 2-2h12c1.1 0 2.1.8 2.4 1.8l1.176 4.2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>DutchVans</span>
         <h3>Vehicle listings data pipeline and client API</h3>
         <p>DutchVans wants a daily view of competitor listing prices and can access it through an API. Therefore, I started by <strong>designing the database, then built an ELT pipeline</strong> that runs every day. The pipeline scrapes data from competitor websites, loads it into a MySQL database, and transforms it, including deduplication and cleaning. <strong>The result is served through an API</strong>, built with FastAPI.</p>
         <ul class="tags" aria-label="Tech used"><li>Python</li><li>Playwright</li><li>SQLAlchemy</li><li>MySQL</li><li>FastAPI</li><li>AWS Lambda</li><li>API Gateway</li><li>Batch</li><li>EventBridge</li><li>Docker</li><li>Bitbucket Pipelines</li></ul>
       </article>
       <article class="card tone-mint reveal">
-        <span class="client">Telenet</span>
+        <span class="client"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 12a6 6 0 00-6-6"/><path d="M2.824 10.459a8 8 0 0010.717 10.717c.558-.276.623-1.012.183-1.452l-9.448-9.448c-.44-.44-1.176-.375-1.452.183"/><path d="M22 12A10 10 0 0012 2"/><path d="m9 15 4-4"/></svg>Telenet</span>
         <h3>Competitor price intelligence</h3>
         <p>To collect all of Telenet's competitors' internet, mobile, and TV prices, I helped <strong>build and maintain a large share of the competitor web scrapers</strong>. That meant automating address checks and bundle configurators with Playwright, extracting promotions, and keeping the scrapers running through site redesigns.</p>
         <ul class="tags" aria-label="Tech used"><li>Python</li><li>Playwright</li><li>requests</li></ul>
       </article>
       <article class="card tone-peach reveal">
-        <span class="client">Odido</span>
+        <span class="client"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>Odido</span>
         <h3>Phone and plan price scraping</h3>
         <p>The objective is to track phone and subscription prices from a phone e-commerce site. My task was to help <strong>build a scraper that collects smartphone</strong> models with SIM subscriptions. I also set up the run <strong>automation with AWS Lambda and Batch jobs</strong>.</p>
         <ul class="tags" aria-label="Tech used"><li>Python</li><li>requests</li><li>AWS Lambda</li><li>Batch</li><li>EventBridge</li><li>Docker</li><li>Bitbucket Pipelines</li></ul>
       </article>
       <article class="card tone-blue reveal">
-        <span class="client">Eneco</span>
+        <span class="client"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z"/></svg>Eneco</span>
         <h3>Energy tariff comparison engine</h3>
         <p>Eneco needed to compare the cost of multiple Dutch energy suppliers every day. In this project, I helped <strong>build several supplier scrapers and collected the costs</strong> of electricity, feed-in, cashback, and gas from the websites' APIs.</p>
         <ul class="tags" aria-label="Tech used"><li>Python</li><li>requests</li></ul>
       </article>
       <article class="card tone-mint reveal">
-        <span class="client">TLFS</span>
+        <span class="client"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 8-2 2-1.5-3.7A2 2 0 0 0 15.646 5H8.4a2 2 0 0 0-1.903 1.257L5 10 3 8"/><path d="M7 14h.01"/><path d="M17 14h.01"/><rect width="18" height="8" x="3" y="10" rx="2"/><path d="M5 18v2"/><path d="M19 18v2"/></svg>TLFS</span>
         <h3>Lease price scraping across car brand websites</h3>
         <p>TLFS wants to track private-lease prices by contract length and mileage from multiple car brands. I took part by <strong>building scrapers for several car-brand</strong> websites. I also created <strong>Teams alerts that flag failed runs</strong> and suspicious data changes.</p>
         <ul class="tags" aria-label="Tech used"><li>Python</li><li>Playwright</li><li>requests</li></ul>
       </article>
       <article class="card tone-lavender reveal">
-        <span class="client">Telco</span>
+        <span class="client"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/><path d="M5 12.859a10 10 0 0 1 14 0"/><path d="M8.5 16.429a5 5 0 0 1 7 0"/></svg>Telco</span>
         <h3>Fault-tolerant scraping pipeline deployment</h3>
         <p>In this project, my task was to <strong>create an automation pipeline</strong> that ran several provider scrapers and ingested the results into a database. I did this with a <strong>Step Functions workflow</strong> that controlled parallel runs, cleaned up when a provider failed, and handled database ingestion.</p>
         <ul class="tags" aria-label="Tech used"><li>AWS Step Functions</li><li>Batch</li><li>Docker</li><li>Bitbucket Pipelines</li><li>Python</li></ul>
